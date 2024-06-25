@@ -61,6 +61,10 @@
   border-radius: 4px;
 }
 
+.nav-search:hover {
+  border: 2px solid orange;
+}
+
 .search-select {
   background-color: #f3f3f3;
   width: 50px;
@@ -74,6 +78,7 @@
   width: 100%;
   font-size: 1rem;
   border: none;
+  text-align: center;
 }
 
 .search-icon {
@@ -90,10 +95,63 @@
 
 /* Sing in box */
 span {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
+}
+.nav-arrow {
+  display: flex;
+  gap: 5px;
 }
 
 .nav-second {
-  font-size: 0.85rem;
+  font-size: 0.95rem;
   font-weight: 700;
+}
+
+/* cart section */
+.nav-cart {
+  display: flex;
+  align-items: center;
+}
+.cart-icon {
+  font-size: 30px;
+}
+
+.cart-text {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+/* panel section */
+.panel {
+  height: 40px;
+  background-color: #222f3d;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+}
+
+.panel-text {
+  margin-left: 5px;
+}
+
+.panel-option p {
+  display: inline;
+  margin-left: 15px;
+}
+
+.panel-option {
+  width: 70%;
+  font-size: 0.85 rem;
+}
+
+.panel-deals {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+
+/* hero section */
+.hero-secion{
+    background-image: url();
 }
