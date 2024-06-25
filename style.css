@@ -150,8 +150,33 @@ span {
   font-weight: 700;
 }
 
-
 /* hero section */
-.hero-secion{
-    background-image: url();
+.hero-section {
+  background-image: url("Amazon Clone (Resources)/hero_image.jpg");
+  height: 600px;
+  background-size: cover;
+}
+
+/* shop section */
+
+.shop-section {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #eed7a6;
+}
+
+.box {
+  border: 2px solid black;
+  height: 400px;
+  width: 23%;
+  background-color: white;
+  padding: 20px;
+}
+
+.box-img-grid {
+  margin: 20px 0px 15px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
+  justify-content: center;
+  align-items: end;
 }
